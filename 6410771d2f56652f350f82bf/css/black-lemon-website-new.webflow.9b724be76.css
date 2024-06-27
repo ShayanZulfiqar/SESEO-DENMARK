@@ -6122,7 +6122,7 @@ figcaption {
   grid-row-gap: 25px;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: 120px;
+  margin-top: 291px;
   font-size: 15px;
   font-weight: 300;
   line-height: 30px;
@@ -7446,7 +7446,7 @@ figcaption {
 
 .footer-bottom {
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   margin-bottom: 70px;
@@ -7505,6 +7505,8 @@ figcaption {
   grid-auto-columns: 1fr;
   width: 70%;
   display: grid;
+  margin-top: 30px;
+
 }
 
 .location {
@@ -7522,9 +7524,9 @@ figcaption {
 
 .location-address {
   color: #818181;
-  margin-top: 30px;
-  margin-bottom: 24px;
-  font-size: 16px;
+  /* margin-top: 30px; */
+  /* margin-bottom: 24px; */
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -7532,6 +7534,7 @@ figcaption {
   color: #818181;
   font-size: 16px;
   font-weight: 300;
+  /* margin-top: 25px; */
 }
 
 .footer-link {
@@ -11417,6 +11420,7 @@ figcaption {
 
 .link-5, .link-6, .link-7, .link-8 {
   color: #818181;
+  font-weight: 300;
 }
 
 .link-9, .link-10, .link-11, .link-12 {
