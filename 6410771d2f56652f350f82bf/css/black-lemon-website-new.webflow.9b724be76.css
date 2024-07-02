@@ -5052,12 +5052,14 @@ figcaption {
 }
 
 .nav-menu-first {
-  grid-column-gap: 40px;
+  grid-column-gap: 20px;
   order: -1;
   align-items: center;
   font-family: Helvetica light, Arial, sans-serif;
   font-weight: 300;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-item {
@@ -5067,6 +5069,11 @@ figcaption {
   line-height: 23px;
   position: relative;
   overflow: hidden;
+}
+
+/* Google translator */
+#google_translate_element{
+  
 }
 
 .nav-item.only-mobile {
